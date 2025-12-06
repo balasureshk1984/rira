@@ -1,0 +1,603 @@
+{
+  "beginner": [
+    {
+      "id": "b1",
+      "title": "Electronics Basics & Safety",
+      "duration": "1 week (10 hours)",
+      "level": "Beginner",
+      "description": "Start from ZERO knowledge! Learn what electricity is, how circuits work, and basic safety. Perfect for 6th-10th graders who have never done electronics before.",
+      "objectives": [
+        "1. Understand what electricity is and how it flows",
+        "2. Learn voltage, current, and resistance in simple terms",
+        "3. Know how to safely work with electronic components",
+        "4. Identify basic components: resistor, LED, battery, breadboard"
+      ],
+      "outcomes": [
+        "1. Safely assemble your first LED circuit",
+        "2. Explain why electricity flows in a closed circuit",
+        "3. Identify correct polarity of components"
+      ],
+      "prerequisites": [
+        "School science knowledge (like atoms and energy)",
+        "Interest in how things work"
+      ],
+      "topics": [
+        "1. What is electricity?",
+        "2. Circuits: open and closed loops",
+        "3. Voltage and current (easy explanation)",
+        "4. Resistance and Ohm's Law (basics)",
+        "5. Component identification (resistor, LED, capacitor)",
+        "6. Safety rules in electronics lab",
+        "7. How to use a breadboard",
+        "8. Continuity testing with multimeter"
+      ],
+      "activity": "Build your first working circuit: make an LED light up using a battery and resistor",
+      "resources": [
+        { "title": "Electronics Basics for Students", "url": "https://www.sparkfun.com/education" },
+        { "title": "Circuit Symbols Explained", "url": "https://learn.sparkfun.com/tutorials/how-to-read-a-schematic" }
+      ]
+    },
+    {
+      "id": "b2",
+      "title": "Meet Arduino - Your First Program",
+      "duration": "1 week (10 hours)",
+      "level": "Beginner",
+      "description": "What is Arduino? Meet this amazing microcomputer! Install the software and write your first program - NO coding experience needed!",
+      "objectives": [
+        "1. Understand what an Arduino is and why it's cool",
+        "2. Download and install Arduino IDE (free software)",
+        "3. Write and upload your first program",
+        "4. Understand the basic structure: setup() and loop()",
+        "5. Make your Arduino do something visible (blink an LED)"
+      ],
+      "outcomes": [
+        "1. Successfully upload the Blink program",
+        "2. Modify the program to change LED blink speed",
+        "3. Explain what setup() and loop() do"
+      ],
+      "prerequisites": [
+        "Basic computer skills (using mouse, keyboard, files)",
+        "Completed Electronics Basics module"
+      ],
+      "topics": [
+        "1. What is Arduino? (Microcontroller introduction)",
+        "2. Arduino Uno board: tour of all parts",
+        "3. IDE: what is it and how to use it",
+        "4. Installing IDE on Windows/Mac/Linux",
+        "5. First program: Blink sketch",
+        "6. Understanding setup() and loop() functions",
+        "7. Comments: how to explain your code",
+        "8. Uploading code to the board"
+      ],
+      "activity": "Set up your Arduino and make an LED blink on and off",
+      "resources": [
+        { "title": "Official Arduino Getting Started", "url": "https://www.arduino.cc/en/Guide" },
+        { "title": "Download Arduino IDE (FREE)", "url": "https://www.arduino.cc/en/software" },
+        { "title": "Beginners Guide to Arduino", "url": "https://learn.sparkfun.com/tutorials/what-is-an-arduino" }
+      ]
+    },
+    {
+      "id": "b3",
+      "title": "Control Things - Make LEDs Blink Patterns",
+      "duration": "1.5 weeks (15 hours)",
+      "level": "Beginner",
+      "description": "Learn to control digital outputs! Make LEDs light up in any pattern you want. Traffic light? SOS signal? Create it!",
+      "objectives": [
+        "1. Control LED on/off using digitalWrite()",
+        "2. Understand digital pins (HIGH and LOW)",
+        "3. Create time delays using delay()",
+        "4. Write programs with multiple LEDs",
+        "5. Build practical circuits on breadboard"
+      ],
+      "outcomes": [
+        "1. Build LED circuit controlled by Arduino",
+        "2. Create a traffic light pattern (red-yellow-green)",
+        "3. Program an SOS morse code flasher",
+        "4. Explain how digitalWrite() works"
+      ],
+      "prerequisites": [
+        "Completed Arduino Introduction module",
+        "Comfortable with Arduino IDE basics"
+      ],
+      "topics": [
+        "1. Digital pins: HIGH (on) and LOW (off)",
+        "2. pinMode() function",
+        "3. digitalWrite() function",
+        "4. delay() for timing",
+        "5. Building circuits with multiple LEDs",
+        "6. Resistor sizing for LEDs",
+        "7. Using breadboard efficiently",
+        "8. Common LED problems and fixes"
+      ],
+      "activity": "Build a traffic light controller or SOS flasher with 3 LEDs",
+      "resources": [
+        { "title": "LED Tutorial for Beginners", "url": "https://learn.sparkfun.com/tutorials/light-emitting-diodes-leds" },
+        { "title": "Breadboard Basics", "url": "https://learn.sparkfun.com/tutorials/how-to-use-a-breadboard" }
+      ]
+    },
+    {
+      "id": "b4",
+      "title": "Read User Input - Buttons & Switches",
+      "duration": "1.5 weeks (15 hours)",
+      "level": "Beginner",
+      "description": "Make your projects interactive! Learn to read buttons and switches. Create programs that respond to what YOU do!",
+      "objectives": [
+        "1. Read digital input from buttons using digitalRead()",
+        "2. Create if/else logic (decision making)",
+        "3. Make Arduino respond to button presses",
+        "4. Fix button bounce problems",
+        "5. Build button-controlled projects"
+      ],
+      "outcomes": [
+        "1. Build a button-controlled LED",
+        "2. Create a simple game or quiz with buttons",
+        "3. Write programs that make decisions",
+        "4. Debug and fix bouncing button issues"
+      ],
+      "prerequisites": [
+        "Completed Digital Output module",
+        "Comfortable with digitalWrite()"
+      ],
+      "topics": [
+        "1. digitalRead() function",
+        "2. Pull-up and pull-down resistors explained",
+        "3. If statements: making decisions",
+        "4. If/else: choosing between two options",
+        "5. Button bounce: what is it and why it matters",
+        "6. Debouncing: fixing the bounce problem",
+        "7. Creating interactive programs",
+        "8. Multiple buttons in one project"
+      ],
+      "activity": "Build a button-controlled traffic light or simple quiz game",
+      "resources": [
+        { "title": "Push Button Tutorial", "url": "https://learn.sparkfun.com/tutorials/button-and-switch-basics" },
+        { "title": "If Statements in Arduino", "url": "https://www.arduino.cc/reference/en/language/structure/control-structure/if/" }
+      ]
+    },
+    {
+      "id": "b5",
+      "title": "Read Sensors - Measure Light, Temperature, Distance",
+      "duration": "2 weeks (20 hours)",
+      "level": "Beginner",
+      "description": "Add sensor superpowers to your Arduino! Measure light, temperature, movement, and distance. Make your projects aware of the world!",
+      "objectives": [
+        "1. Read analog values (0-1023) from sensors",
+        "2. Understand how sensors measure things",
+        "3. Use light sensor (photoresistor) to detect brightness",
+        "4. Connect temperature sensor",
+        "5. Create sensor-based decisions in your code"
+      ],
+      "outcomes": [
+        "1. Read values from potentiometer or light sensor",
+        "2. Control LED brightness based on room light",
+        "3. Build a temperature alarm that alerts you",
+        "4. Display sensor values on computer",
+        "5. Make robots react to their environment"
+      ],
+      "prerequisites": [
+        "Completed Digital Input/Output modules",
+        "Comfortable with Arduino programming"
+      ],
+      "topics": [
+        "1. Analog pins and analogRead() function",
+        "2. Analog values: 0 to 1023 range",
+        "3. Different types of sensors explained",
+        "4. Photoresistor (Light Dependent Resistor - LDR)",
+        "5. Temperature sensors (thermistor, DHT22)",
+        "6. Ultrasonic distance sensor basics",
+        "7. Serial Monitor: displaying sensor readings",
+        "8. Sensor calibration: adjusting for accuracy"
+      ],
+      "activity": "Build a light-activated LED or temperature alarm system",
+      "resources": [
+        { "title": "Analog Sensors Tutorial", "url": "https://learn.sparkfun.com/tutorials/analog-circuits" },
+        { "title": "Arduino analogRead Explained", "url": "https://www.arduino.cc/reference/en/language/functions/analog-io/analogread/" }
+      ]
+    },
+    {
+      "id": "b6",
+      "title": "Control Brightness - PWM Explained Simply",
+      "duration": "1.5 weeks (15 hours)",
+      "level": "Beginner",
+      "description": "Dim and brighten LEDs smoothly! Control motor speed! Learn PWM - a clever trick that makes things seem brighter or faster without using more power.",
+      "objectives": [
+        "1. Understand PWM using simple everyday examples",
+        "2. Use analogWrite() for brightness control",
+        "3. Create smooth fading LED effects",
+        "4. Control motor speed with a potentiometer",
+        "5. Understand which pins support PWM"
+      ],
+      "outcomes": [
+        "1. Control LED brightness (0=off to 255=full brightness)",
+        "2. Create breathing or fading light effects",
+        "3. Control motor speed with a dial",
+        "4. Explain why we use PWM"
+      ],
+      "prerequisites": [
+        "Completed Digital and Analog basics",
+        "Comfortable with loops and delays"
+      ],
+      "topics": [
+        "1. What is PWM? (Pulse Width Modulation explained simply)",
+        "2. How PWM tricks our eyes/ears",
+        "3. PWM-capable pins on Arduino (3,5,6,9,10,11)",
+        "4. analogWrite() function (0-255 values)",
+        "5. LED brightness control practical examples",
+        "6. Motor speed control with PWM",
+        "7. Creating smooth fading effects with loops",
+        "8. Real-world applications (volume control, brightness)"
+      ],
+      "activity": "Create a breathing LED effect and control motor speed with potentiometer",
+      "resources": [
+        { "title": "PWM Explained for Beginners", "url": "https://learn.sparkfun.com/tutorials/pulse-width-modulation" },
+        { "title": "Arduino analogWrite", "url": "https://www.arduino.cc/reference/en/language/functions/analog-io/analogwrite/" }
+      ]
+    }
+  ],
+  "intermediate": [
+    {
+      "id": "i1",
+      "title": "Serial Communication - Talk to Your Arduino",
+      "duration": "1.5 weeks (15 hours)",
+      "level": "Intermediate",
+      "description": "See what your Arduino is thinking! Use Serial Monitor to display values, debug problems, and send commands from your computer to your Arduino.",
+      "objectives": [
+        "1. Use Serial Monitor to display sensor readings",
+        "2. Send text messages from Arduino to computer",
+        "3. Receive and understand commands from computer",
+        "4. Create helpful debug messages",
+        "5. Solve problems using debug information"
+      ],
+      "outcomes": [
+        "1. Display live sensor values on your screen",
+        "2. Send commands to control your Arduino",
+        "3. Create a simple command system (like 'ON', 'OFF')",
+        "4. Log data for later analysis"
+      ],
+      "prerequisites": [
+        "Completed all Beginner modules",
+        "Comfortable with Arduino programming"
+      ],
+      "topics": [
+        "1. Serial communication: what and why",
+        "2. Opening Serial Monitor in IDE",
+        "3. Serial.begin() and baud rate (9600)",
+        "4. Serial.print() and Serial.println()",
+        "5. Formatting your output messages",
+        "6. Serial.read() to receive data",
+        "7. Sending text commands (like 'L' for LED ON)",
+        "8. Simple debugging techniques"
+      ],
+      "activity": "Display sensor readings live and control LED via Serial Monitor commands",
+      "resources": [
+        { "title": "Serial Monitor Tutorial", "url": "https://learn.sparkfun.com/tutorials/serial-communication" },
+        { "title": "Arduino Serial Reference", "url": "https://www.arduino.cc/reference/en/language/functions/communication/serial/" }
+      ]
+    },
+    {
+      "id": "i2",
+      "title": "Making Things Move - Control Motors",
+      "duration": "2 weeks (20 hours)",
+      "level": "Intermediate",
+      "description": "Build robots that move! Learn how to control DC motors for speed and direction, and servo motors for precise positioning. Build a moving robot car!",
+      "objectives": [
+        "1. Understand DC motors and how they work",
+        "2. Control motor direction (forward/backward)",
+        "3. Control motor speed with PWM",
+        "4. Use motor driver chip (L298N)",
+        "5. Control servo motors for positioning",
+        "6. Build a simple robot car chassis"
+      ],
+      "outcomes": [
+        "1. Make motor spin forward and backward",
+        "2. Change motor speed smoothly",
+        "3. Position servo at different angles",
+        "4. Build and program a robot that moves",
+        "5. Control multiple motors together"
+      ],
+      "prerequisites": [
+        "Completed PWM and Debugging modules",
+        "Understanding of power and circuits"
+      ],
+      "topics": [
+        "1. How DC motors work (simple explanation)",
+        "2. H-bridge concept: how to change direction",
+        "3. L298N motor driver module",
+        "4. Controlling motor speed with PWM (0-255)",
+        "5. Controlling motor direction with HIGH/LOW",
+        "6. Servo motor basics and positioning",
+        "7. Building robot chassis from kit",
+        "8. Power requirements for motors",
+        "9. Protecting your board with diodes"
+      ],
+      "activity": "Build a robot car that moves forward, backward, and turns",
+      "resources": [
+        { "title": "Motor Driver Tutorial", "url": "https://howtomechatronics.com/tutorials/arduino/arduino-dc-motor-control-tutorial-l298n-pwm-speed-direction/" },
+        { "title": "Servo Motor Control", "url": "https://www.arduino.cc/reference/en/libraries/servo/" }
+      ]
+    },
+    {
+      "id": "i3",
+      "title": "Advanced Sensors - Obstacle & Line Sensors",
+      "duration": "2 weeks (20 hours)",
+      "level": "Intermediate",
+      "description": "Add more senses to your robot! Connect distance sensors, motion detectors, and line sensors. Make your robot aware and reactive to its environment!",
+      "objectives": [
+        "1. Connect ultrasonic distance sensor to detect obstacles",
+        "2. Use motion sensors (PIR) to detect movement",
+        "3. Add line sensors for autonomous navigation",
+        "4. Read multiple sensors together",
+        "5. Make decisions based on sensor data"
+      ],
+      "outcomes": [
+        "1. Build obstacle detection system",
+        "2. Create motion detector alarm",
+        "3. Build line-following robot",
+        "4. Combine multiple sensors in one project",
+        "5. Make robots react intelligently to surroundings"
+      ],
+      "prerequisites": [
+        "Completed analog and digital input modules",
+        "Comfortable with Arduino programming"
+      ],
+      "topics": [
+        "1. Ultrasonic distance sensor (HC-SR04) - how it works",
+        "2. Calculating distance from timing",
+        "3. Infrared motion sensor (PIR) basics",
+        "4. Line sensors (infrared reflectance sensors)",
+        "5. Reading multiple sensors together",
+        "6. Filtering noisy sensor data",
+        "7. Creating decision thresholds",
+        "8. Obstacle avoidance algorithms"
+      ],
+      "activity": "Build an obstacle-avoiding robot or line-following robot",
+      "resources": [
+        { "title": "Ultrasonic Sensor for Beginners", "url": "https://howtomechatronics.com/tutorials/arduino/ultrasonic-sensor-hc-sr04/" },
+        { "title": "Line Following Robot", "url": "https://learn.robotics.org/" }
+      ]
+    },
+    {
+      "id": "i4",
+      "title": "Connecting Modules - I2C Protocol Made Simple",
+      "duration": "1.5 weeks (15 hours)",
+      "level": "Intermediate",
+      "description": "Connect LCD displays, sensors, and other modules using I2C! Connect many devices with just 2 wires. Add screens to show information!",
+      "objectives": [
+        "1. Understand I2C communication basics",
+        "2. Connect I2C LCD display to Arduino",
+        "3. Display messages and numbers on LCD",
+        "4. Connect multiple I2C devices",
+        "5. Troubleshoot connection problems"
+      ],
+      "outcomes": [
+        "1. Display sensor readings on LCD screen",
+        "2. Show messages and values",
+        "3. Connect multiple I2C devices simultaneously",
+        "4. Explain why I2C is useful",
+        "5. Fix common I2C connection issues"
+      ],
+      "prerequisites": [
+        "Completed serial communication module",
+        "Familiar with digital input/output"
+      ],
+      "topics": [
+        "1. What is I2C? (Two-wire interface explained)",
+        "2. I2C pins: SDA and SCL",
+        "3. Pull-up resistors: why we need them",
+        "4. Wire library in Arduino",
+        "5. I2C device addresses",
+        "6. Common I2C devices (LCD, sensors, RTC)",
+        "7. Reading and writing I2C data",
+        "8. Combining multiple I2C devices"
+      ],
+      "activity": "Connect LCD display and show live sensor data on screen",
+      "resources": [
+        { "title": "I2C Communication Explained", "url": "https://learn.sparkfun.com/tutorials/i2c" },
+        { "title": "I2C LCD Display Tutorial", "url": "https://howtomechatronics.com/tutorials/arduino/16x2-lcd-display-tutorial/" }
+      ]
+    }
+  ],
+  "advanced": [
+    {
+      "id": "a1",
+      "title": "Remote Control Your Robot - Bluetooth",
+      "duration": "2 weeks (20 hours)",
+      "level": "Advanced",
+      "description": "Control your robot from your smartphone! Add wireless Bluetooth control. Become a true robot master!",
+      "objectives": [
+        "1. Connect HC-05 Bluetooth module to Arduino",
+        "2. Receive commands from Bluetooth app on phone",
+        "3. Send robot status back to phone",
+        "4. Create wireless control commands",
+        "5. Understand wireless security basics"
+      ],
+      "outcomes": [
+        "1. Remote control robot movement with Bluetooth",
+        "2. Receive data on Arduino from phone",
+        "3. Send status messages back",
+        "4. Build wireless sensor monitoring system",
+        "5. Create or use existing control app"
+      ],
+      "prerequisites": [
+        "Completed intermediate modules",
+        "Comfortable with serial communication"
+      ],
+      "topics": [
+        "1. Bluetooth HC-05 module setup",
+        "2. Wireless communication basics",
+        "3. Pairing devices (Arduino with phone)",
+        "4. Sending data wirelessly",
+        "5. Receiving wireless commands",
+        "6. Creating command protocols",
+        "7. Using Android Bluetooth apps",
+        "8. Wireless range and interference"
+      ],
+      "activity": "Build Bluetooth-controlled robot car that responds to phone commands",
+      "resources": [
+        { "title": "HC-05 Bluetooth for Beginners", "url": "https://howtomechatronics.com/tutorials/arduino/bluetooth-basic-tutorial/" },
+        { "title": "MIT App Inventor (make Bluetooth app FREE)", "url": "https://appinventor.mit.edu/" }
+      ]
+    },
+    {
+      "id": "a2",
+      "title": "Advanced Motor Control - Make Things Move Smart",
+      "duration": "2 weeks (20 hours)",
+      "level": "Advanced",
+      "description": "Control multiple motors with precision! Create robots that follow complex paths and move smoothly. Make smooth, intelligent movements!",
+      "objectives": [
+        "1. Coordinate multiple motors together",
+        "2. Implement non-blocking timing for complex movements",
+        "3. Create smooth speed transitions",
+        "4. Build robot path planning",
+        "5. Handle simultaneous motor operations"
+      ],
+      "outcomes": [
+        "1. Make robot follow complex paths accurately",
+        "2. Run multiple actions at the same time",
+        "3. Create smooth acceleration/deceleration",
+        "4. Build intelligent movement patterns",
+        "5. Control robot like a professional"
+      ],
+      "prerequisites": [
+        "Mastered motor control basics",
+        "Comfortable with Arduino programming",
+        "Understanding of loops and timing"
+      ],
+      "topics": [
+        "1. Non-blocking timing with millis()",
+        "2. Handling multiple tasks simultaneously",
+        "3. Motor speed ramping and smoothing",
+        "4. Coordinating left/right wheels",
+        "5. Speed differential for turning",
+        "6. Encoder introduction",
+        "7. Simple robot navigation algorithms"
+      ],
+      "activity": "Program robot to navigate a maze or follow complex path",
+      "resources": [
+        { "title": "Non-Blocking Timing", "url": "https://learn.sparkfun.com/tutorials/measuring-distance-with-time-of-flight" },
+        { "title": "Robot Navigation Basics", "url": "https://learn.robotics.org/" }
+      ]
+    },
+    {
+      "id": "a3",
+      "title": "Save Your Data - SD Cards & Memory",
+      "duration": "1.5 weeks (15 hours)",
+      "level": "Advanced",
+      "description": "Never lose data again! Save sensor readings and robot actions to SD cards. Analyze what happened after your project runs!",
+      "objectives": [
+        "1. Connect SD card module to Arduino",
+        "2. Write data to files on SD card",
+        "3. Read data back from SD card",
+        "4. Create timestamped data logs",
+        "5. Organize and analyze saved data"
+      ],
+      "outcomes": [
+        "1. Save sensor readings to SD card",
+        "2. Create organized data files",
+        "3. Track robot movements and actions",
+        "4. Analyze data after experiments",
+        "5. Create long-term monitoring systems"
+      ],
+      "prerequisites": [
+        "Comfortable with file concepts",
+        "Experience with sensor reading"
+      ],
+      "topics": [
+        "1. SD card module (hardware)",
+        "2. SPI communication (simple)",
+        "3. Creating and opening files",
+        "4. Writing data to files",
+        "5. Reading data back from files",
+        "6. CSV format for data storage",
+        "7. Adding timestamps to data",
+        "8. File organization strategies"
+      ],
+      "activity": "Build data logger that records sensor values every minute to SD card",
+      "resources": [
+        { "title": "SD Card Module Tutorial", "url": "https://howtomechatronics.com/tutorials/arduino/arduino-sd-card-module-tutorial/" },
+        { "title": "Arduino SD Card Library", "url": "https://www.arduino.cc/reference/en/libraries/sd/" }
+      ]
+    },
+    {
+      "id": "a4",
+      "title": "Smart Control - Make Your Robot Learn to Adjust",
+      "duration": "2 weeks (20 hours)",
+      "level": "Advanced",
+      "description": "Make truly intelligent robots! Learn feedback control so your robot automatically adjusts to maintain perfect behavior. Self-correcting robots!",
+      "objectives": [
+        "1. Understand feedback control concept",
+        "2. Implement simple feedback loops",
+        "3. Build line-following with feedback correction",
+        "4. Maintain constant speed despite obstacles",
+        "5. Create stable positioning systems"
+      ],
+      "outcomes": [
+        "1. Build robot that maintains straight line automatically",
+        "2. Create accurate speed control",
+        "3. Implement automatic error correction",
+        "4. Explain how feedback improves performance",
+        "5. Build smart projects that think"
+      ],
+      "prerequisites": [
+        "Completed motor and sensor modules",
+        "Comfortable with basic math and logic"
+      ],
+      "topics": [
+        "1. Feedback loops basics",
+        "2. Error detection and measurement",
+        "3. Proportional response (simple version)",
+        "4. PID control introduction (Proportional-Integral-Derivative)",
+        "5. Tuning for stable behavior",
+        "6. Line-following algorithms",
+        "7. Self-regulating systems",
+        "8. Real-world feedback examples"
+      ],
+      "activity": "Build very accurate line-follower or temperature control system",
+      "resources": [
+        { "title": "Feedback Control for Beginners", "url": "https://en.wikipedia.org/wiki/Feedback" },
+        { "title": "PID Tuning Guide", "url": "https://howtomechatronics.com/tutorials/arduino/arduino-pid-control-tutorial/" }
+      ]
+    },
+    {
+      "id": "a5",
+      "title": "Final Project - Design and Build Your Own Robot!",
+      "duration": "3 weeks (30 hours)",
+      "level": "Advanced",
+      "description": "Bring it ALL together! Design and build YOUR OWN robot project combining everything you learned. From idea to working robot! Present your creation!",
+      "objectives": [
+        "1. Plan and design your own robot project",
+        "2. Combine all learned skills in one project",
+        "3. Troubleshoot real-world engineering problems",
+        "4. Document your project professionally",
+        "5. Present and demonstrate your robot"
+      ],
+      "outcomes": [
+        "1. Completed working robot that performs its task",
+        "2. Full documentation (code, diagrams, photos)",
+        "3. Successful project demonstration",
+        "4. Written explanation of how it works",
+        "5. Real engineering portfolio piece"
+      ],
+      "prerequisites": [
+        "Completed most advanced modules",
+        "Comfortable with full Arduino programming"
+      ],
+      "topics": [
+        "1. Project planning and design",
+        "2. Component selection and sourcing",
+        "3. Circuit design and wiring",
+        "4. Code development and debugging",
+        "5. Mechanical design basics",
+        "6. Testing and refinement",
+        "7. Professional documentation",
+        "8. Presentation and communication skills"
+      ],
+      "activity": "Design and build ANY robot you want! Ideas: obstacle avoider, line follower, maze solver, bluetooth car, plant waterer, tracker, alarm system, etc.",
+      "resources": [
+        { "title": "Robot Design Guide", "url": "https://learn.robotics.org/" },
+        { "title": "Component Sourcing", "url": "https://www.robotshop.com/" },
+        { "title": "GitHub for Project Sharing", "url": "https://github.com/" }
+      ]
+    }
+  ]
+}
